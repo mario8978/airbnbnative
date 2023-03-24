@@ -1,0 +1,21 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true
+  },
+  "noImplicitAny": false,
+  "paths": {
+    "@pages/*": [
+      "./src/pages/*"
+    ],
+    "@components/*": [
+      "./src/components/*"
+    ],
+    "@assets/*": [
+      "./src/assets/*"
+    ],
+    "@helpers/*": [
+      "./src/helpers/*"
+    ],
+  }
+}
